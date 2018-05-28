@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "73ae8e7fddfff6476859e23e893e4e9f",
+    "content-hash": "66806318d3de493b31d3644e13e8132d",
     "packages": [
         {
             "name": "aura/intl",
@@ -1984,7 +1984,7 @@
         },
         {
             "name": "symfony/config",
-            "version": "v3.4.10",
+            "version": "v3.4.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/config.git",
@@ -2048,7 +2048,7 @@
         },
         {
             "name": "symfony/console",
-            "version": "v3.4.10",
+            "version": "v3.4.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
@@ -2117,7 +2117,7 @@
         },
         {
             "name": "symfony/debug",
-            "version": "v4.0.10",
+            "version": "v4.0.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/debug.git",
@@ -2173,7 +2173,7 @@
         },
         {
             "name": "symfony/filesystem",
-            "version": "v4.0.10",
+            "version": "v4.0.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/filesystem.git",
@@ -2337,7 +2337,7 @@
         },
         {
             "name": "symfony/yaml",
-            "version": "v3.4.10",
+            "version": "v3.4.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
@@ -2711,16 +2711,16 @@
         },
         {
             "name": "cakephp/bake",
-            "version": "1.7.3",
+            "version": "1.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cakephp/bake.git",
-                "reference": "68db6894e7b572f073b0c7654796b020890b7906"
+                "reference": "1e54dd0695925215796322318fb056147b3fd2d8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cakephp/bake/zipball/68db6894e7b572f073b0c7654796b020890b7906",
-                "reference": "68db6894e7b572f073b0c7654796b020890b7906",
+                "url": "https://api.github.com/repos/cakephp/bake/zipball/1e54dd0695925215796322318fb056147b3fd2d8",
+                "reference": "1e54dd0695925215796322318fb056147b3fd2d8",
                 "shasum": ""
             },
             "require": {
@@ -2755,7 +2755,7 @@
                 "bake",
                 "cakephp"
             ],
-            "time": "2018-05-02T01:34:25+00:00"
+            "time": "2018-05-26T01:46:17+00:00"
         },
         {
             "name": "cakephp/cakephp-codesniffer",
@@ -3734,7 +3734,7 @@
         },
         {
             "name": "symfony/finder",
-            "version": "v4.0.10",
+            "version": "v4.0.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/finder.git",
@@ -3838,7 +3838,7 @@
         },
         {
             "name": "symfony/process",
-            "version": "v4.0.10",
+            "version": "v4.0.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/process.git",
@@ -3887,7 +3887,7 @@
         },
         {
             "name": "symfony/var-dumper",
-            "version": "v4.0.10",
+            "version": "v4.0.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/var-dumper.git",
