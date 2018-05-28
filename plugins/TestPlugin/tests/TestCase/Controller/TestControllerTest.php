@@ -1,17 +1,13 @@
 <?php
 namespace TestPlugin\Test\TestCase\Controller;
 
-use Cake\Routing\Router;
 use Cake\TestSuite\IntegrationTestCase;
-use TestPlugin\Controller\TestController;
-use TestPlugin\Plugin;
 
 /**
  * TestPlugin\Controller\TestController Test Case
  */
 class TestControllerTest extends IntegrationTestCase
 {
-
     /**
      * Test index method
      *
@@ -20,16 +16,29 @@ class TestControllerTest extends IntegrationTestCase
     public function testIndex()
     {
         $this->disableErrorHandlerMiddleware();
-        $routes = Router::createRouteBuilder('/');
-        $plugin = new Plugin();
-        $plugin->routes($routes);
 
-        $this->post([
-            'plugin' => 'TestPlugin',
-            'controller' => 'Test',
-            'action' => 'index'
+        $this->get([
+            '_name' => 'Test'
         ]);
 
         $this->assertResponseOk();
+        $this->assertResponseContains('Hello');
+    }
+
+    /**
+     * Test index method
+     *
+     * @return void
+     */
+    public function testIndexPost()
+    {
+        $this->disableErrorHandlerMiddleware();
+
+        $this->post([
+            '_name' => 'Test'
+        ]);
+
+        $this->assertResponseOk();
+        $this->assertResponseContains('Hello');
     }
 }
