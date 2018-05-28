@@ -17,9 +17,6 @@
             <directory>./tests/TestCase</directory>
         </testsuite>
         <!-- Add plugin test suites here. -->
-        <testsuite name="TestPlugin">
-            <directory>./plugins/TestPlugin/tests/TestCase</directory>
-        </testsuite>
     </testsuites>
 
     <!-- Setup a listener for fixtures -->
