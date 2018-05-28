@@ -34,6 +34,7 @@ class PagesControllerTest extends IntegrationTestCase
      */
     public function testMultipleGet()
     {
+        $this->disableErrorHandlerMiddleware();
         $this->get('/');
         $this->assertResponseOk();
         $this->get('/');
@@ -47,7 +48,26 @@ class PagesControllerTest extends IntegrationTestCase
      */
     public function testDisplay()
     {
+        $this->disableErrorHandlerMiddleware();
         $this->get('/pages/home');
+        $this->assertResponseOk();
+        $this->assertResponseContains('CakePHP');
+        $this->assertResponseContains('<html>');
+    }
+
+    /**
+     * Tests display with an url array
+     *
+     * @return void
+     */
+    public function testDisplayUrlArray()
+    {
+        $this->disableErrorHandlerMiddleware();
+        $this->get([
+            'controller' => 'Pages',
+            'action' => 'display',
+            'home'
+        ]);
         $this->assertResponseOk();
         $this->assertResponseContains('CakePHP');
         $this->assertResponseContains('<html>');
