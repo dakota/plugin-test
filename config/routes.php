@@ -78,4 +78,4 @@ Router::scope('/', function (RouteBuilder $routes) {
     $routes->fallbacks(DashedRoute::class);
 });
 
-Plugin::routes();
+//Plugin::routes();
