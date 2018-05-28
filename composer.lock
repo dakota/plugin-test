@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "881990a2061ce2d402968f9a2cbfef58",
+    "content-hash": "66806318d3de493b31d3644e13e8132d",
     "packages": [
         {
             "name": "aura/intl",
@@ -54,16 +54,16 @@
         },
         {
             "name": "cakephp/cakephp",
-            "version": "3.5.17",
+            "version": "3.6.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cakephp/cakephp.git",
-                "reference": "7727f122bac708a6b5883472bb3b22aad1e68e3b"
+                "reference": "614f906e001f5e98174d1b273119931859bd7f39"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cakephp/cakephp/zipball/7727f122bac708a6b5883472bb3b22aad1e68e3b",
-                "reference": "7727f122bac708a6b5883472bb3b22aad1e68e3b",
+                "url": "https://api.github.com/repos/cakephp/cakephp/zipball/614f906e001f5e98174d1b273119931859bd7f39",
+                "reference": "614f906e001f5e98174d1b273119931859bd7f39",
                 "shasum": ""
             },
             "require": {
@@ -136,7 +136,7 @@
                 "rapid-development",
                 "validation"
             ],
-            "time": "2018-05-21T01:31:33+00:00"
+            "time": "2018-05-21T00:47:41+00:00"
         },
         {
             "name": "cakephp/chronos",
@@ -197,29 +197,29 @@
         },
         {
             "name": "cakephp/migrations",
-            "version": "1.7.2",
+            "version": "1.8.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cakephp/migrations.git",
-                "reference": "a5612adfd2efa8c90d29cb3b0c969de872a99eda"
+                "reference": "cd65daa9fae933bc0ccc69d5b5d92460375da9e2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cakephp/migrations/zipball/a5612adfd2efa8c90d29cb3b0c969de872a99eda",
-                "reference": "a5612adfd2efa8c90d29cb3b0c969de872a99eda",
+                "url": "https://api.github.com/repos/cakephp/migrations/zipball/cd65daa9fae933bc0ccc69d5b5d92460375da9e2",
+                "reference": "cd65daa9fae933bc0ccc69d5b5d92460375da9e2",
                 "shasum": ""
             },
             "require": {
-                "cakephp/cache": "~3.2",
-                "cakephp/orm": "~3.2",
-                "php": ">=5.5.9",
+                "cakephp/cache": "^3.6.0",
+                "cakephp/orm": "^3.6.0",
+                "php": ">=5.6.0",
                 "robmorgan/phinx": "0.8.1"
             },
             "require-dev": {
-                "cakephp/bake": "@stable",
-                "cakephp/cakephp": "~3.2",
+                "cakephp/bake": "^1.7.0",
+                "cakephp/cakephp": "^3.6.0",
                 "cakephp/cakephp-codesniffer": "^3.0",
-                "phpunit/phpunit": "~4.1"
+                "phpunit/phpunit": "^5.7.14"
             },
             "suggest": {
                 "cakephp/bake": "Required if you want to generate migrations."
@@ -246,7 +246,7 @@
                 "cakephp",
                 "migrations"
             ],
-            "time": "2017-12-12T21:01:38+00:00"
+            "time": "2018-04-16T01:35:59+00:00"
         },
         {
             "name": "cakephp/plugin-installer",
@@ -2711,27 +2711,27 @@
         },
         {
             "name": "cakephp/bake",
-            "version": "1.6.4",
+            "version": "1.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cakephp/bake.git",
-                "reference": "0ca2165ac770f8e3c7b278f3f022df14d7b0913a"
+                "reference": "1e54dd0695925215796322318fb056147b3fd2d8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cakephp/bake/zipball/0ca2165ac770f8e3c7b278f3f022df14d7b0913a",
-                "reference": "0ca2165ac770f8e3c7b278f3f022df14d7b0913a",
+                "url": "https://api.github.com/repos/cakephp/bake/zipball/1e54dd0695925215796322318fb056147b3fd2d8",
+                "reference": "1e54dd0695925215796322318fb056147b3fd2d8",
                 "shasum": ""
             },
             "require": {
-                "cakephp/cakephp": "^3.5.10",
+                "cakephp/cakephp": "^3.6.0",
                 "cakephp/plugin-installer": "^1.0",
                 "php": ">=5.6.0",
-                "wyrihaximus/twig-view": "^4.2.1"
+                "wyrihaximus/twig-view": "^4.3.4"
             },
             "require-dev": {
                 "cakephp/cakephp-codesniffer": "^3.0",
-                "phpunit/phpunit": "^5.7 | ^6.0"
+                "phpunit/phpunit": "^5.7.14|^6.0"
             },
             "type": "cakephp-plugin",
             "autoload": {
@@ -2755,7 +2755,7 @@
                 "bake",
                 "cakephp"
             ],
-            "time": "2018-03-10T01:47:21+00:00"
+            "time": "2018-05-26T01:46:17+00:00"
         },
         {
             "name": "cakephp/cakephp-codesniffer",
@@ -2804,20 +2804,20 @@
         },
         {
             "name": "cakephp/debug_kit",
-            "version": "3.14.2",
+            "version": "3.16.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cakephp/debug_kit.git",
-                "reference": "b5e11f386b9ff28694950f68ef3e0456c242051b"
+                "reference": "388e9ab0bab2bcb5984556312ae599905bec284d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cakephp/debug_kit/zipball/b5e11f386b9ff28694950f68ef3e0456c242051b",
-                "reference": "b5e11f386b9ff28694950f68ef3e0456c242051b",
+                "url": "https://api.github.com/repos/cakephp/debug_kit/zipball/388e9ab0bab2bcb5984556312ae599905bec284d",
+                "reference": "388e9ab0bab2bcb5984556312ae599905bec284d",
                 "shasum": ""
             },
             "require": {
-                "cakephp/cakephp": "^3.4.0",
+                "cakephp/cakephp": "^3.6.0",
                 "cakephp/chronos": "^1.0.0",
                 "cakephp/plugin-installer": "^1.0.0",
                 "composer/composer": "^1.3.0",
@@ -2826,10 +2826,10 @@
             },
             "require-dev": {
                 "cakephp/cakephp-codesniffer": "^3.0",
-                "phpunit/phpunit": "^5.7|^6.0"
+                "phpunit/phpunit": "^5.7.14|^6.0"
             },
             "suggest": {
-                "ext-sqlite": "DebugKit needs to store panel data in a database. SQLite is simple and easy to use."
+                "ext-pdo_sqlite": "DebugKit needs to store panel data in a database. SQLite is simple and easy to use."
             },
             "type": "cakephp-plugin",
             "autoload": {
@@ -2860,7 +2860,7 @@
                 "debug",
                 "kit"
             ],
-            "time": "2018-03-08T18:21:10+00:00"
+            "time": "2018-05-23T15:26:13+00:00"
         },
         {
             "name": "composer/ca-bundle",
